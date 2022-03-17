@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C831E8527E368F8007BAF85 /* City_Sights_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C831E8427E368F8007BAF85 /* City_Sights_AppApp.swift */; };
+		2C831E8527E368F8007BAF85 /* City_Sights_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C831E8427E368F8007BAF85 /* City_Sights_App.swift */; };
 		2C831E8727E368F8007BAF85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C831E8627E368F8007BAF85 /* ContentView.swift */; };
 		2C831E8927E368F9007BAF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C831E8827E368F9007BAF85 /* Assets.xcassets */; };
 		2C831E8C27E368F9007BAF85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C831E8B27E368F9007BAF85 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		2C831E8127E368F8007BAF85 /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C831E8427E368F8007BAF85 /* City_Sights_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Sights_AppApp.swift; sourceTree = "<group>"; };
+		2C831E8427E368F8007BAF85 /* City_Sights_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_Sights_App.swift; sourceTree = "<group>"; };
 		2C831E8627E368F8007BAF85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2C831E8827E368F9007BAF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C831E8B27E368F9007BAF85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,8 +51,10 @@
 		2C831E8327E368F8007BAF85 /* City Sights App */ = {
 			isa = PBXGroup;
 			children = (
-				2C831E8427E368F8007BAF85 /* City_Sights_AppApp.swift */,
-				2C831E8627E368F8007BAF85 /* ContentView.swift */,
+				2C831E8427E368F8007BAF85 /* City_Sights_App.swift */,
+				2C831E9327E369E4007BAF85 /* Views */,
+				2C831E9427E369E9007BAF85 /* ViewModels */,
+				2C831E9227E369DE007BAF85 /* Models */,
 				2C831E8827E368F9007BAF85 /* Assets.xcassets */,
 				2C831E8A27E368F9007BAF85 /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				2C831E8B27E368F9007BAF85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C831E9227E369DE007BAF85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C831E9327E369E4007BAF85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C831E8627E368F8007BAF85 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C831E9427E369E9007BAF85 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C831E8727E368F8007BAF85 /* ContentView.swift in Sources */,
-				2C831E8527E368F8007BAF85 /* City_Sights_AppApp.swift in Sources */,
+				2C831E8527E368F8007BAF85 /* City_Sights_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
